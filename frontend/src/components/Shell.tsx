@@ -25,7 +25,7 @@ function Shell() {
 
   return (
     <div>
-      <h1>Fetched Data</h1>
+      <h1>Fetched Data Hello World</h1>
       <ul>
         {data.map((item: Product) => (
           <li key={item.id}>{item.name} - {item.price}</li> // Displaying the data

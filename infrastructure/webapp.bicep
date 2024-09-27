@@ -54,7 +54,7 @@ resource connectionString 'Microsoft.Web/sites/config@2022-03-01' = {
   parent: webApp
   name: 'connectionstrings'
   properties: {
-    defaultConnection: {
+    DefaultConnection: {
       type: 'SQLAzure'
       value: 'Server=tcp:${sqlServerName}.database.windows.net,1433;Initial Catalog=${sqlDatabasename};User Id=${administratorLogin}@${sqlServerName};Password=${administratorPassword};'
     }
