@@ -49,7 +49,7 @@ jobs:
         azcliversion: latest
         inlineScript: |
           az storage blob upload-batch \
-            --account-name stgss6vrhey \
+            --account-name stggwqb6igy \
             --account-key ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }} \
             --destination '$web' \
             --source frontend/dist \
